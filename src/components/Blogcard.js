@@ -13,7 +13,7 @@ const Blogcard = () => {
    useEffect(() => {
     const fetchBlogs = async () => {
         const { blogappsmwendwa } = await request(
-            ``{
+            `{
                 blogappsmwendwa {
                     hereWeGoWithTheBlogapp
                     slugidentifier
